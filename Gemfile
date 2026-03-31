@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.4.1"
-gem "jekyll-org", github: "ricardoricho/jekyll-org", branch: "update"
+gem "jekyll-org", github: "ricardoricho/jekyll-org"
 gem "org-ruby", github: "ricardoricho/org-ruby"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
