@@ -29,8 +29,49 @@ baseurl: "ricardoricho.github.io"
 twitter_username: _richo
 github_username:  ricardoricho
 
+# Theme settings
+
+collections:
+  init-blog:
+    title: Init-blog # Needed for Siteleaf
+    output: true
+    description: "My thoughts and ideas" # The post list page content
+    feature_text: |
+      Welcome to the blog
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+
+navigation_header:
+  - title: Home
+    url: /
+  - title: Resume
+    url: /resume/
+
+navigation_footer:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+
+social_links:
+  GitHub: https://github.com/ricardoricho
+  LinkedIn: https://linkedin.com/in/ricardo-arredondo
+
+sharing_links:
+  LinkedIn: true
+  GitHub: true
+
 # Build settings
-theme: minima
+
+theme: alembic-jekyll-theme
+
 plugins:
   - jekyll-feed
   - jekyll-org
