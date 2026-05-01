@@ -1,0 +1,43 @@
+#+layout: resume
+#+title: Ricardo - Resume
+#+permalink: /resume/
+
+* Ricardo Arredondo
+
+#+begin_quote
+  Software Developer
+
+Under construction. Download similar [[/resume/ricardo-cv.pdf][PDF]] file.
+#+end_quote
+
+** Experience
+*** *[[https://briq.mx][BriqMx]]*
+April 2023 --- April 2024
+
+*Software Engineer*
+**** Technologies
+Ruby on Rails,PostgreSQL, StimulusJS, Hotwire, Redis, Heroku.
+
+*** *[[https://www.altimetrik.com/][Altimetrik]]*
+April 2022 --- July 2022
+
+*Principal Software Engineer*
+
+**** Technologies
+Ruby, Ruby on Rails
+
+*** *[[https://jetty.mx][Jetty]]*
+February 2017 --- February 2020
+
+*CTO* /Software Developer/
+
+*** *[[https://innku.com][Innku]]*
+August 2014 --- February 2017 \\
+*Software Developer*
+
+** Education
+
+*** *Computer Science* 2003 --- 2008
+
+  Bachelors Degree \\
+  Universidad Nacional Autónoma de Mexico (UNAM)
