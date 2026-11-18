@@ -47,7 +47,6 @@ defaults:
     values:
       layout: post
 
-
 navigation_header:
   - title: Home
     url: /
@@ -64,10 +63,6 @@ social_links:
   GitHub: https://github.com/ricardoricho
   LinkedIn: https://linkedin.com/in/ricardo-arredondo
 
-sharing_links:
-  LinkedIn: true
-  GitHub: true
-
 # Build settings
 
 theme: alembic-jekyll-theme
@@ -75,3 +70,6 @@ theme: alembic-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-org
+
+sass:
+  sass_dir: _sass

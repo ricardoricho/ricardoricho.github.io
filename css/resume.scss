@@ -1,0 +1,50 @@
+---
+---
+
+.layout-resume {
+  /* Font styles */
+  main { font: 16px Helvetica, Sans-Serif; line-height: 24px; }
+  h1 { font-size: 2.5rem; font-weight: bold; }
+  blockquote p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+  h2 { font-size: 1.5rem; font-style: italic; font-weight: bold; }
+  h3 { font-size: 1.2rem; font-weight: bold; }
+  h3 i { font-size: small; font-weight: normal; }
+  h4 { font-size: medium; font-weight: 300; }
+
+  /* /\* Layout & Borders *\/ */
+  .resume-content {
+    width: 90%;
+    margin: 2rem auto auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    h1 { margin: 0 0 1rem 0; padding: 0 0 1rem 0; border-bottom: 0.1rem solid #999; grid-column: 1/3; }
+    blockquote { grid-column: 1/3; }
+    blockquote p { border-left: none; padding: 0; }
+
+    h2 { padding-right: 0.2rem; margin: 1.2rem 0; text-align: right; grid-column: 1; }
+
+    h3 { padding-right: 0.2rem; text-align: right; grid-column: 1; }
+    h3 strong { padding-right: 0.2rem; }
+    h3 i { padding-right: 0.2rem; display: block; color: #999; }
+
+    h4 { border-left: 1px solid #999; padding: 0 0 0 1.6rem; margin: none; grid-column: 2;}
+    p  { border-left: 1px solid #999; padding: 0 0 0 1.6rem; grid-column: 2; }
+
+    ul {
+      grid-column: 2;
+      border-left: 1px solid #999;
+      padding-left: 1.6rem;
+      margin: 0;
+      li {
+        list-style-type: none;
+        display: inline-block;
+        padding: none;
+        font-size: small;
+        color: #666; }
+    }
+
+    a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+    a:hover { border-bottom-style: solid; color: black; }
+  }
+}

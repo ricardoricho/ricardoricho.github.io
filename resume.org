@@ -7,37 +7,48 @@
 #+begin_quote
   Software Developer
 
-Under construction. Download similar [[/resume/ricardo-cv.pdf][PDF]] file.
+Under construction.
+Download similar [[/resume/ricardo-cv.pdf][PDF]] file.
 #+end_quote
 
 ** Experience
-*** *[[https://briq.mx][BriqMx]]*
-April 2023 --- April 2024
 
+*** [[https://www.altimetrik.com/][Briqmx]] /April  2024 --- April  2025/
 *Software Engineer*
-**** Technologies
-Ruby on Rails,PostgreSQL, StimulusJS, Hotwire, Redis, Heroku.
+**** Technologies:
+- Ruby on Rails
+- PostgreSQL
+- StimulusJS
+- Redis
+- Heroku
 
-*** *[[https://www.altimetrik.com/][Altimetrik]]*
-April 2022 --- July 2022
 
+*** [[https://www.altimetrik.com/][Altimetrik]] /April 2022 --- July 2022/
 *Principal Software Engineer*
 
-**** Technologies
-Ruby, Ruby on Rails
+**** Technologies:
+- Ruby on Rails
+- Python
 
-*** *[[https://jetty.mx][Jetty]]*
-February 2017 --- February 2020
-
+*** [[https://jetty.mx][Jetty]] /February 2017 --- February 2020/
 *CTO* /Software Developer/
 
-*** *[[https://innku.com][Innku]]*
-August 2014 --- February 2017 \\
+**** Technologies:
+- Ruby on Rails
+- PostgreSQL
+- Redis
+- Heroku
+- Swift
+- Android
+- Kotlin
+- Google Maps
+- JavaScript
+
+*** [[https://innku.com][Innku]] /August 2014 --- February 2017/
 *Software Developer*
 
 ** Education
 
-*** *Computer Science* 2003 --- 2008
-
-  Bachelors Degree \\
-  Universidad Nacional Autónoma de Mexico (UNAM)
+*** Computer Science /2003 --- 2008/
+Bachelors Degree \\
+Universidad Nacional Autónoma de Mexico (UNAM)
