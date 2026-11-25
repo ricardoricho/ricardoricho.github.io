@@ -1,0 +1,53 @@
+#+layout: post
+#+title: Org Ruby
+#+date: 2026-11-24 00:07:43 +0000
+#+categories: org ruby
+
+The Ruby gem [[https://github.com/ricardoricho/org-ruby][org-ruby]] is behind
+[[https:/github.com/ricardoricho/jekyl-org][Jekyll-org]] and convert the ~ORG~ files into ~HTML~.
+For highlight the code it uses [[https://github.com/rouge-ruby/rouge][Rouge]] and look like this:
+
+#+begin_src ruby
+  puts "Hello World"
+#+end_src
+
+For code written in ~Ruby~ and also supports other languages like ~Emacs-lisp~ that got
+translated to ~scheme~ by ~org-ruby~
+
+#+begin_src emacs-lisp
+  (message "Hello World")
+#+end_src
+
+Org-ruby is under development, I've been trying to improve the code, and add new
+features, for example, export @@latex: Latex @@ code.
+
+There are two ways to write latex code
+ - Inline, with a latex tag =@@latex:=. The previous "latex" was the result of
+   =@@latex: Latex @@= and ~org-ruby~ translated to =$latex$=. Then MathJax act on
+   top, changing the code for a Latex interpretation.
+ - A block of code, that =#+begin_export= and the =latex= language.
+
+MathJax, is a JavaScript library that render the text between ~$~
+as latex text and for blocks, the content between ~\[~ and ~\]~. For example:
+
+#+begin_export latex
+\frac{\delta x}{\delta y}
+#+end_export
+
+To work I added the following code to the ~head~ tag of the Jekyll template.
+
+#+begin_src html
+  <script>
+    MathJax = {
+      tex: { inlineMath: { '[+]': [['$', '$']] } }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+#+end_src
+
+Org-ruby code is not easy to understand and read, but it works. Refactor it has
+been a fun experience.
+
+Maybe two more features come after this, to have this behavior open to configure
+and to include the MathJax scripts in the ~wrap_html~ option, like when
+including a ~CSS~ file.
